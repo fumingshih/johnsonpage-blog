@@ -1,5 +1,9 @@
-permalink: pretty
 pygments: true
+auto: true
+permalink: /blog/:year-:month-:day/:title
+exclude:
+- Rakefile
+- README.markdown
 #--- site vars
 author: Johnson Page
 email: jwpage@gmail.com
