@@ -1,0 +1,17 @@
+#container {
+    margin: 2em auto 0 auto;
+    width: 790px;
+}
+header hgroup {
+    text-transform: lowercase;
+}
+header hgroup span {
+    margin: -0.1em;
+}
+header hgroup span+span {
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+footer {
+    font-size: 70%;
+}
