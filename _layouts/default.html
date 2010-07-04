@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">  
     <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
     <link rel="stylesheet" href="/css/style.css" />
+    <link href="/atom.xml" rel="alternate" type="application/atom+xml" />
 </head>
 <body>
     <div class="container">
@@ -31,34 +32,37 @@
         <div class="clear"></div>
 
         <footer class="span-18">
-            <div class="span-12">
-                <article class="boxxy span-4">
-                    <h1>About</h1>
-                    <p>Lorem ipsum </p>
-                </article>
-                <nav class="boxxy span-4">
-                    <h1>More</h1>
-                    <ul>
-                        <li><a href="/colophon.html">Colophon</a></li>
-                        <li><a href="/resume.html">Resume</a></li>
-                        <li><a href="/archive.html">Post Archive</a></li>
-                    </ul>
-                </nav>
-                <nav class="boxxy span-4 last">
-                    <h1>Elsewhere</h1> 
-                    <ul>
-                        <li><a href="http://twitter.com/jwpage">Twitter</a></li>
-                        <li><a href="http://github.com/jwpage">Github</a></li>
-                        <li><a href="mailto:jwpage@gmail.com">Email</a></li>
-                    </ul>
-                </nav>
-                <div class="clear"></div>
-            </div>
+            <article id="about" class="boxxy span-6">
+                <h1>About</h1>
+                <p>
+                I'm a web developer from Brisbane, Australia who enjoys
+                writing about, and&nbsp;working with, all manner of web
+                technologies.
+                </p>
+                <a href="/resume">Further reading  →</a>
+            </article>
+            <nav id="more" class="boxxy span-4">
+                <h1>More</h1>
+                <ul>
+                    <li><a href="/colophon">Colophon</a></li>
+                    <li><a href="/resume">Resume</a></li>
+                    <li><a href="/archive">Archive</a></li>
+                    <li><a href="/atom.xml">Subscribe (Atom)</a></li>
+                </ul>
+            </nav>
+            <nav id="else" class="boxxy span-4 last">
+                <h1>Elsewhere</h1> 
+                <ul>
+                    <li><a href="http://twitter.com/jwpage">Twitter</a></li>
+                    <li><a href="http://github.com/jwpage">Github</a></li>
+                    <li><a href="mailto:jwpage+in@gmail.com">Email</a></li>
+                </ul>
+            </nav>
         </footer>
         <div class="clear"></div>
     </div>
     <p class="clear" id="very-footer">
-        Powered by <a href="#">Jekyll</a>
+        Powered by <a href="http://jekyllrb.com/">Jekyll</a>
     </p>
 </body>
 </html>
