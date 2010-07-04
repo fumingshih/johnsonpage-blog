@@ -3,7 +3,7 @@ layout: post
 title: johnsonpage dot org
 topics: announcement
 ---
-This is the first iteration of the new <strong>johnsonpage.org</strong>. In the coming days, I'll be updating this site with some new minor features and content.
+This is the first iteration of the new __johnsonpage.org__. In the coming days, I'll be updating this site with some new minor features and content.
 
 What I can do right now, however, is give you a quick rundown on what this site's made up of:
 

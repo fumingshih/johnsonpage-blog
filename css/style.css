@@ -18,6 +18,9 @@ hr {
 header hgroup {
     text-transform: lowercase;
 }
+header h1 {
+    text-shadow: 1px 1px 1px #999;
+}
 header h1 span {
     margin-right: -0.1em;
 }
@@ -51,8 +54,9 @@ header h1 span+span {
 
 /* Footer */
 footer {
-    opacity: 0.5;
-    -moz-opacity: 0.5;
+    color: #666;
+    opacity: 0.7;
+    -moz-opacity: 0.7;
     padding: 1em;
 }
 footer:hover {

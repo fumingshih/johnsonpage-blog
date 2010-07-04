@@ -8,10 +8,10 @@
     (function(B,C){B[C]=B[C].replace(/\bno-js\b/,'js');if(!/*@cc_on!@*/0)return;var e = "abbr article aside audio canvas command datalist details figure figcaption footer header hgroup mark meter nav output progress section summary time video".split(' '),i=e.length;while(i--){document.createElement(e[i])}})(document.documentElement,'className');
     </script>
 
-    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">  
-    <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">  
+    <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
     <div class="container">
@@ -23,13 +23,13 @@
                 </hgroup>
             </header>
 
-            <article id="content">
-                {{ content }}
-            </article>
+            <div id="content">
+            {{ content }}
+            </div>
             <div class="clear"></div>
         </div>
         <div class="clear"></div>
-        {% comment %}
+
         <footer class="span-18">
             <div class="span-12">
                 <article class="boxxy span-4">
@@ -39,10 +39,9 @@
                 <nav class="boxxy span-4">
                     <h1>More</h1>
                     <ul>
-                        <li><a href="#">Colophon</a></li>
-                        <li><a href="#">Lorem ipsum</a></li>
-                        <li><a href="#">Lorem ipsum</a></li>
-                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="/colophon.html">Colophon</a></li>
+                        <li><a href="/resume.html">Resume</a></li>
+                        <li><a href="/archive.html">Post Archive</a></li>
                     </ul>
                 </nav>
                 <nav class="boxxy span-4 last">
@@ -56,7 +55,6 @@
                 <div class="clear"></div>
             </div>
         </footer>
-        {% endcomment %}
         <div class="clear"></div>
     </div>
     <p class="clear" id="very-footer">
