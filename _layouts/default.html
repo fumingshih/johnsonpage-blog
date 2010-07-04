@@ -1,7 +1,12 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-    <title></title>
+    <title>
+    {% if page.title %}{{ page.title }} &mdash; johnsonpage.org
+    {% else %}johnsonpage.org &mdash; code and words from a web developer in brisbane, australia  
+    {% endif %}
+    
+    </title>
     <meta charset="utf-8" />
     <meta name="author" content="{{ site.author }}" />
     <script>
@@ -19,7 +24,7 @@
         <div class="hell span-18">
             <header>
                 <hgroup>
-                    <h1><span>johnson</span> <span>page</span></h1>
+                    <h1><a href="/"><span>johnson</span> <span>page</span></a></h1>
                     <h2>code and words from <strong>a web developer in Brisbane, Australia</strong></h2>
                 </hgroup>
             </header>
@@ -36,16 +41,20 @@
                 <h1>About</h1>
                 <p>
                 I'm a web developer from Brisbane, Australia who enjoys
-                writing about, and&nbsp;working with, all manner of web
+                working with, and&nbsp;writing about, all manner of web
                 technologies.
                 </p>
+                {% comment %}
                 <a href="/resume">Further reading  →</a>
+                {% endcomment %}
             </article>
             <nav id="more" class="boxxy span-4">
                 <h1>More</h1>
                 <ul>
                     <li><a href="/colophon">Colophon</a></li>
+                    {% comment %}
                     <li><a href="/resume">Resume</a></li>
+                    {% endcomment %}
                     <li><a href="/archive">Archive</a></li>
                     <li><a href="/atom.xml">Subscribe (Atom)</a></li>
                 </ul>
@@ -64,5 +73,16 @@
     <p class="clear" id="very-footer">
         Powered by <a href="http://jekyllrb.com/">Jekyll</a>
     </p>
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-12101695-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga. async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http:// www') + '.google-analytics.com/ga.js';
+(document.getElementsByTagName('head')[0] || document.                      getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script>
 </body>
 </html>

@@ -21,8 +21,10 @@ hr {
 header hgroup {
     text-transform: lowercase;
 }
-header h1 {
+header h1 a {
     text-shadow: 1px 1px 1px #999;
+    color: #111;
+    text-decoration: none;
 }
 header h1 span {
     margin-right: -0.1em;
