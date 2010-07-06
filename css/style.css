@@ -60,13 +60,9 @@ header h1 span+span {
 /* Footer */
 footer {
     color: #666;
-    opacity: 0.7;
-    -moz-opacity: 0.7;
+    opacity: 0.4;
+    -moz-opacity: 0.4;
     padding: 1em;
-}
-footer:hover {
-    opacity: 1;
-    -moz-opacity: 1;
 }
 footer .span-18 {
     padding-top: 1em;
