@@ -68,6 +68,9 @@ footer .span-18 {
     padding-top: 1em;
     float: none;
 }
+footer #about a {
+    display: block;
+}
 footer h1 {
     font-size: 150%;
 }

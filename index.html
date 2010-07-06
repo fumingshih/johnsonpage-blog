@@ -12,5 +12,5 @@ layout: default
 {% for post in site.posts | limit: 5 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="meta">(posted on <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time>)</span></li>
 {% endfor %}
-    <li><a href="/archive.html">See the full archive.</a></li>
+    <li><a href="/archive">See the full archive.</a></li>
 </ul>

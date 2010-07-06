@@ -1,7 +1,7 @@
 ---
 layout: post
 title: johnsonpage dot org
-topics: announcement
+categories: [announcements, jekyll]
 ---
 This is the first iteration of the new __johnsonpage.org__. In the coming days, I'll be updating this site with some new minor features and content.
 
