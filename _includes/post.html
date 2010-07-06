@@ -9,5 +9,5 @@ Post Partial:
 </a></h1>
 {% if front_page == true %}{{ post.content }}{% else %}{{ content }}{% endif %}
 <p class="meta">
-Posted {{ post.date | date: "%d %B, %Y" }}
+Posted <time datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate="pubdate">{{ post.date | date: "%d %B, %Y" }}</time>
 </p>
