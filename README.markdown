@@ -1,0 +1,1 @@
+See <http://johnsonpage.org/colophon> and <http://johnsonpage.org/about>.
