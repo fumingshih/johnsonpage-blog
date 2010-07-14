@@ -41,6 +41,7 @@ function niceTime($time) {
 {% include post.html %}
 
 <hr />
+<article>
 <h1>Recent Posts</h1>
 <ul>
 {% for post in site.posts | limit: 5 %}
@@ -48,7 +49,9 @@ function niceTime($time) {
 {% endfor %}
     <li><a href="/archive">See the full archive.</a></li>
 </ul>
+</article>
 <hr />
+<article>
 <h1>On Twitter</h1>
 <ul>
     <? if(is_array($tweets)): foreach($tweets as $k=>$v): ?>
@@ -62,3 +65,4 @@ function niceTime($time) {
     <? endif; ?>
     <li><a href="http://twitter.com/jwpage">Follow me on Twitter</a></li>
 </ul>
+</article>
