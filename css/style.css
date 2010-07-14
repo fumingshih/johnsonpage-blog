@@ -7,7 +7,7 @@ html body {
 }
 .container {
     margin: 2em auto 0 auto;
-    width: 710px;
+    width: 630px;
 }
 .hell {
     padding: 1em;
@@ -15,6 +15,9 @@ html body {
 hr {
     background: #999;
     color: #999;
+}
+h2 {
+    font-size: 1.8em;
 }
 
 /* Header */
@@ -48,12 +51,13 @@ header h1 span+span {
     font-size: 120%;
 }
 #content h1 {
-    font-size: 150%;
+    font-size: 140%;
 }
 #content h2 {
     font-size: 120%;
 }
 #content .meta {
+    white-space: nowrap;
     font-size: 70%;
 }
 

@@ -21,7 +21,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="hell span-18">
+        <div class="hell span-16">
             <header>
                 <hgroup>
                     <h1><a href="/"><span>johnson</span> <span>page</span></a></h1>
@@ -62,7 +62,7 @@
                 <ul>
                     <li><a href="http://twitter.com/jwpage">Twitter</a></li>
                     <li><a href="http://github.com/jwpage">Github</a></li>
-                    <li><a href="mailto:jwpage+in@gmail.com">Email</a></li>
+                    <li><a href="mailto:jwpage+site@gmail.com">Email</a></li>
                 </ul>
             </nav>
         </footer>

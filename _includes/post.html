@@ -3,6 +3,7 @@ Post Partial:
 - post (http://wiki.github.com/mojombo/jekyll/template-data)
 - post.first (if being shown on front page)
 {% endcomment %}
+<article>
 <h1>
     {% if front_page == true %}Latest Post:{% endif %}
     <a href="{{ post.url }}">{{ post.title }}
@@ -11,3 +12,4 @@ Post Partial:
 <p class="meta">
 Posted <time datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate="pubdate">{{ post.date | date: "%d %B, %Y" }}</time>
 </p>
+</article>
