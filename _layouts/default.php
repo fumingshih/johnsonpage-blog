@@ -18,85 +18,87 @@
     <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" type="text/css" media="screen, projection"><![endif]-->
     <link rel="stylesheet" href="/css/style.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" />
     <link href="/atom.xml" rel="alternate" type="application/atom+xml" />
+
+    <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-12101695-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+
 </head>
 <body>
-    <div class="container">
-        <div class="hell span-16">
-            <header itemscope="itemscope" 
-                itemtype="http://data-vocabulary.org/Person">
-                <hgroup>
-                    <h1 itemprop="name"><a href="/"><span>johnson</span> <span>page</span></a></h1>
-                    <h2>
-                        code and words from 
-                        <strong>
-                        a 
-                        <span itemprop="title">Web Developer</span> 
-                        in
-                        <span itemprop="address" itemscope="itemscope" 
-                            itemtype="http://data-vocabulary.org/Address">
-                            <span itemprop="city">Brisbane</span>,
-                            <span itemprop="country-name">Australia</span>
-                        </span>
-                        </strong>
-                    </h2>
-                </hgroup>
-            </header>
+<div class="container">
+    <div class="hell span-16">
+        <header itemscope="itemscope" 
+            itemtype="http://data-vocabulary.org/Person">
+            <hgroup>
+                <h1 itemprop="name"><a href="/"><span>johnson</span> <span>page</span></a></h1>
+                <h2>
+                    code and words from 
+                    <strong>
+                    a 
+                    <span itemprop="title">Web Developer</span> 
+                    in
+                    <span itemprop="address" itemscope="itemscope" 
+                        itemtype="http://data-vocabulary.org/Address">
+                        <span itemprop="city">Brisbane</span>,
+                        <span itemprop="country-name">Australia</span>
+                    </span>
+                    </strong>
+                </h2>
+            </hgroup>
+        </header>
 
-            <div id="content">
-            {{ content }}
-            </div>
-            <div class="clear"></div>
+        <div id="content">
+        {{ content }}
         </div>
         <div class="clear"></div>
-
-        <footer class="span-18">
-            <article id="about" class="boxxy span-6">
-                <h1>About</h1>
-                <p>
-                I'm Johnson Page, a web developer from Brisbane, Australia 
-                who enjoys working with, and&nbsp;thinking about, all manner 
-                of web technologies. 
-                <a href="/about">Read a little more about me.</a>.
-                </p>
-            </article>
-            <nav id="more" class="boxxy span-4">
-                <h1>More</h1>
-                <ul>
-                    <li><a href="/colophon">Colophon</a></li>
-                    {% comment %}
-                    <li><a href="/resume">Resume</a></li>
-                    {% endcomment %}
-                    <li><a href="/archive">Archive</a></li>
-                    <li><a href="/atom.xml">Subscribe (Atom)</a></li>
-                </ul>
-            </nav>
-            <nav id="else" class="boxxy span-4 last">
-                <h1>Elsewhere</h1> 
-                <ul>
-                    <li><a href="http://twitter.com/jwpage">Twitter</a></li>
-                    <li><a href="http://github.com/jwpage">Github</a></li>
-                    <li><a href="mailto:jwpage+site@gmail.com">Email</a></li>
-                </ul>
-            </nav>
-        </footer>
-        <div class="clear"></div>
     </div>
-    <p class="clear" id="very-footer">
-        Powered by <a href="http://jekyllrb.com/">Jekyll</a>
-    </p>
+    <div class="clear"></div>
+
+    <footer class="span-18">
+        <article id="about" class="boxxy span-6">
+            <h1>About</h1>
+            <p>
+            I'm Johnson Page, a web developer from Brisbane, Australia 
+            who enjoys working with, and&nbsp;thinking about, all manner 
+            of web technologies. 
+            <a href="/about">Read a little more about me.</a>.
+            </p>
+        </article>
+        <nav id="more" class="boxxy span-4">
+            <h1>More</h1>
+            <ul>
+                <li><a href="/colophon">Colophon</a></li>
+                {% comment %}
+                <li><a href="/resume">Resume</a></li>
+                {% endcomment %}
+                <li><a href="/archive">Archive</a></li>
+                <li><a href="/atom.xml">Subscribe (Atom)</a></li>
+            </ul>
+        </nav>
+        <nav id="else" class="boxxy span-4 last">
+            <h1>Elsewhere</h1> 
+            <ul>
+                <li><a href="http://twitter.com/jwpage">Twitter</a></li>
+                <li><a href="http://github.com/jwpage">Github</a></li>
+                <li><a href="mailto:jwpage+site@gmail.com">Email</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <div class="clear"></div>
+</div>
+<p class="clear" id="very-footer">
+    Powered by <a href="http://jekyllrb.com/">Jekyll</a>
+</p>
 
 <script src="/js/jquery-1.4.2.min.js?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
 <script src="/js/site.js?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-12101695-1']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
 </body>
 </html>
