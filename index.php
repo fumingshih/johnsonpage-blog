@@ -54,15 +54,21 @@ function niceTime($time) {
 <article>
 <h1>On Twitter</h1>
 <ul>
-    <? if(is_array($tweets)): foreach($tweets as $k=>$v): ?>
+    <? 
+    if(is_array($tweets)): 
+    foreach($tweets as $k=>$v):
+    if(substr($v['text'], 0, 1) != '@'):
+    ?>
     <li>
         <?=Twitter_Autolink::autolink($v['text'])?>
         <span class="meta">
         (<time datetime="<?=strftime('%Y-%m-%d', strtotime($v['created_at']))?>"><?=niceTime($v['created_at'])?></time>)
         </span>
     </li>
-    <? endforeach; else :?>
-    <? endif; ?>
+    <? 
+    endif; 
+    endforeach; 
+    endif; ?>
     <li><a href="http://twitter.com/jwpage">Follow me on Twitter</a></li>
 </ul>
 </article>
