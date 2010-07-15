@@ -18,6 +18,7 @@
     <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" type="text/css" media="screen, projection"><![endif]-->
     <link rel="stylesheet" href="/css/style.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" />
     <link href="/atom.xml" rel="alternate" type="application/atom+xml" />
+    <link href="/favicon.ico" rel="shortcut icon" />
 </head>
 <body>
     <div class="container">
