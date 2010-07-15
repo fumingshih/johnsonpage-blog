@@ -13,10 +13,10 @@
     (function(B,C){B[C]=B[C].replace(/\bno-js\b/,'js');if(!/*@cc_on!@*/0)return;var e = "abbr article aside audio canvas command datalist details figure figcaption footer header hgroup mark meter nav output progress section summary time video".split(' '),i=e.length;while(i--){document.createElement(e[i])}})(document.documentElement,'className');
     </script>
 
-    <link rel="stylesheet" href="/css/blueprint/screen.css?{{ site.time }}" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="/css/blueprint/print.css?{{ site.time }}" type="text/css" media="print">  
-    <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css?{{ site.time }}" type="text/css" media="screen, projection"><![endif]-->
-    <link rel="stylesheet" href="/css/style.css?{{ site.time }}" />
+    <link rel="stylesheet" href="/css/blueprint/screen.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/css/blueprint/print.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" type="text/css" media="print">  
+    <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="/css/style.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" />
     <link href="/atom.xml" rel="alternate" type="application/atom+xml" />
 </head>
 <body>
@@ -82,7 +82,7 @@ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http:// www'
 (document.getElementsByTagName('head')[0] || document.                      getElementsByTagName('body')[0]).appendChild(ga);
 })();
 </script>
-<script src="/js/jquery-1.4.2.min.js?{{ site.time }}"></script>
-<script src="/js/site.jsi?{{ site.time }}"></script>
+<script src="/js/jquery-1.4.2.min.js?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
+<script src="/js/site.jsi?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
 </body>
 </html>
