@@ -3,7 +3,7 @@
 <head>
     <title>
     {% if page.title %}{{ page.title }} &mdash; johnsonpage.org
-    {% else %}johnsonpage.org &mdash; code and words from a web developer in brisbane, australia  
+    {% else %}johnsonpage.org &mdash; a web developer in brisbane, australia  
     {% endif %}
     
     </title>
@@ -30,7 +30,7 @@
                         code and words from 
                         <strong>
                         a 
-                        <span itemprop="title">web developer</span> 
+                        <span itemprop="title">Web Developer</span> 
                         in
                         <span itemprop="address" itemscope="itemscope" 
                             itemtype="http://data-vocabulary.org/Address">
