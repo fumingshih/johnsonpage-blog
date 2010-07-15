@@ -84,18 +84,19 @@
     <p class="clear" id="very-footer">
         Powered by <a href="http://jekyllrb.com/">Jekyll</a>
     </p>
-<script>
+
+<script src="/js/jquery-1.4.2.min.js?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
+<script src="/js/site.js?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
+<script type="text/javascript">
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-12101695-1']);
 _gaq.push(['_trackPageview']);
 
 (function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga. async = true;
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-(document.getElementsByTagName('head')[0] || document.                      getElementsByTagName('body')[0]).appendChild(ga);
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 </script>
-<script src="/js/jquery-1.4.2.min.js?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
-<script src="/js/site.js?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
 </body>
 </html>
