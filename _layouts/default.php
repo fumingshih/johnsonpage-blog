@@ -83,6 +83,6 @@ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http:// www'
 })();
 </script>
 <script src="/js/jquery-1.4.2.min.js?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
-<script src="/js/site.jsi?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
+<script src="/js/site.js?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
 </body>
 </html>
