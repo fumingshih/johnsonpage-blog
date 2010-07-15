@@ -22,10 +22,23 @@
 <body>
     <div class="container">
         <div class="hell span-16">
-            <header>
+            <header itemscope="itemscope" 
+                itemtype="http://data-vocabulary.org/Person">
                 <hgroup>
-                    <h1><a href="/"><span>johnson</span> <span>page</span></a></h1>
-                    <h2>code and words from <strong>a web developer in Brisbane, Australia</strong></h2>
+                    <h1 itemprop="name"><a href="/"><span>johnson</span> <span>page</span></a></h1>
+                    <h2>
+                        code and words from 
+                        <strong>
+                        a 
+                        <span itemprop="title">web developer</span> 
+                        in
+                        <span itemprop="address" itemscope="itemscope" 
+                            itemtype="http://data-vocabulary.org/Address">
+                            <span itemprop="city">Brisbane</span>,
+                            <span itemprop="country-name">Australia</span>
+                        </span>
+                        </strong>
+                    </h2>
                 </hgroup>
             </header>
 
