@@ -60,6 +60,16 @@ header h1 span+span {
     white-space: nowrap;
     font-size: 70%;
 }
+#content code {
+    letter-spacing: -1px;
+    font-size: 0.9em;
+}
+#content .highlight { 
+    background: #FFF;
+}
+#content .highlight pre {
+    padding: 0.5em;
+}
 
 /* Footer */
 footer {
