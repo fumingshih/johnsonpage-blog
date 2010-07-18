@@ -6,5 +6,5 @@ exclude:
 - README.markdown
 #--- site vars
 author: Johnson Page
-email: jwpage@gmail.com
-url: http://johnsonpage.org/blog
+url: http://johnsonpage.org
+email: jwpage+site@gmail.com

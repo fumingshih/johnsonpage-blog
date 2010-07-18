@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/css/blueprint/print.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" type="text/css" media="print">  
     <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" type="text/css" media="screen, projection"><![endif]-->
     <link rel="stylesheet" href="/css/style.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" />
+    <link rel="stylesheet" href="/css/pygment_trac.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" />
     <link href="/atom.xml" rel="alternate" type="application/atom+xml" />
 
     <script>
@@ -88,7 +89,7 @@
             <ul>
                 <li><a href="http://twitter.com/jwpage">Twitter</a></li>
                 <li><a href="http://github.com/jwpage">Github</a></li>
-                <li><a href="mailto:jwpage+site@gmail.com">Email</a></li>
+                <li><a href="mailto:{{ site.email }}">Email</a></li>
             </ul>
         </nav>
     </footer>
