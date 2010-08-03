@@ -8,3 +8,4 @@ exclude:
 author: Johnson Page
 url: http://johnsonpage.org
 email: jwpage+site@gmail.com
+local: true

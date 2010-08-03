@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="/css/pygment_trac.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" />
     <link href="/atom.xml" rel="alternate" type="application/atom+xml" />
 
+    {% if not site.local %}
     <script>
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-12101695-1']);
@@ -31,6 +32,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
     </script>
+    {% endif %}
 
 </head>
 <body>

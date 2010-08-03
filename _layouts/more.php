@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/css/blueprint/print.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" type="text/css" media="print">  
     <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" type="text/css" media="screen, projection"><![endif]-->
     <link rel="stylesheet" href="/css/more.css?{{ site.time | date:"%Y%m%d%H%M%S" }}" />
+    {% if not site.local %}
     <script>
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-12101695-1']);
@@ -28,6 +29,8 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
     </script>
+    {% endif %}
+
     {% if page.more_css %}
     <style>
     {{ page.more_css }}
