@@ -2,8 +2,12 @@ pygments: true
 auto: true
 permalink: /blog/:year-:month-:day/:title
 exclude:
-- Rakefile
 - README.markdown
+
+markdown: rdiscount
+rdiscount:
+    extensions: [smart]
+
 #--- site vars
 author: Johnson Page
 url: http://johnsonpage.org
