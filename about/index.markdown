@@ -14,7 +14,4 @@ I'm proficient in desiging webpages using __XHTML__, __JavaScript__ and __CSS__.
 
 When I'm not messing around with code I enjoy cooking, listening to music and the odd dose of science fiction.
 
-{% comment %}
-If you want to know a more about what I've done, what I do and what I can do, 
-you can [take a look at my resume](/resume).
-{% endcomment %}
+For more information on my professional history, you can [take a look at my resume](/resume).
