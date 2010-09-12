@@ -33,7 +33,6 @@
     })();
     </script>
     {% endif %}
-
 </head>
 <body>
 <div class="container">
@@ -51,11 +50,18 @@
                     <span itemprop="address" itemscope="itemscope" 
                         itemtype="http://data-vocabulary.org/Address">
                         <span itemprop="city">Brisbane</span>,
-                        <span itemprop="country-name">Australia</span>
-                    </span>
-                    </strong>
-                </h2>
+                        <span itemprop="country-name">Australia</span></span></strong></h2>
             </hgroup>
+            <style>
+            
+            </style>
+            <nav>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/colophon">Colophon</a></li>
+                    <li><a href="/archive">Archive</a></li>
+                </ul>
+            </nav>
         </header>
 
         <div id="content">
@@ -64,44 +70,17 @@
         <div class="clear"></div>
     </div>
     <div class="clear"></div>
-
-    <footer class="span-18">
-        <article id="about" class="boxxy span-6">
-            <h1>About</h1>
-            <p>
-            I'm Johnson Page, a web developer from Brisbane, Australia 
-            who enjoys working with, and&nbsp;thinking about, all manner 
-            of web technologies. 
-            <a href="/about">Read a little more about me.</a>.
-            </p>
-        </article>
-        <nav id="more" class="boxxy span-4">
-            <h1>More</h1>
-            <ul>
-                <li><a href="/colophon">Colophon</a></li>
-                {% comment %}
-                <li><a href="/resume">Resume</a></li>
-                {% endcomment %}
-                <li><a href="/archive">Archive</a></li>
-                <li><a href="/atom.xml">Subscribe (Atom)</a></li>
-            </ul>
-        </nav>
-        <nav id="else" class="boxxy span-4 last">
-            <h1>Elsewhere</h1> 
-            <ul>
-                <li><a href="http://twitter.com/jwpage">Twitter</a></li>
-                <li><a href="http://github.com/jwpage">Github</a></li>
-                <li><a href="mailto:{{ site.email }}">Email</a></li>
-            </ul>
-        </nav>
-    </footer>
-    <div class="clear"></div>
 </div>
-<p class="clear" id="very-footer">
-    Powered by <a href="http://jekyllrb.com/">Jekyll</a>
-</p>
+<footer id="very-footer">
+    <nav>
+        <ul>
+            <li class="first"><a href="/atom.xml">Subscribe (Atom)</a></li>
+            <li>Follow me on <a href="http://twitter.com/jwpage">Twitter</a></li>
+            <li>Fork me on <a href="http://github.com/jwpage">Github</a></li>
+            <li>Powered by <a href="http://jekyllrb.com">Jekyll</a></li>
+        </ul>
+    </nav>
+</footer>
 
-<script src="/js/jquery-1.4.2.min.js?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
-<script src="/js/site.js?{{ site.time | date:"%Y%m%d%H%M%S" }}"></script>
 </body>
 </html>
