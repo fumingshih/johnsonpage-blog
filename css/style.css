@@ -41,7 +41,7 @@ header li {
     float: left; 
     list-style-type: none; 
 }
-header li a, header li a:link, header li a:visited, header li a:hover, header li a:active, header h1 a:focus { 
+header li a, header li a:link, header li a:visited, header li a:hover, header li a:active, header li a:focus { 
     border: none;
     display: block; 
     padding: 0.5em;
