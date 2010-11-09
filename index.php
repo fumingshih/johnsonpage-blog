@@ -4,7 +4,7 @@ layout: default
 <article id="about">
 <img src="http://www.gravatar.com/avatar/b0a428c4f5e9cae36fd766d69a987600?s=50" />
 <p>
-Hi! I'm Johnson, a web developer who loves writing code. I currently work at <a href="http://locatrix.com">Locatrix Communications</a> and use PHP, Ruby, HTML, CSS and JavaScript to create <a href="http://everyone.whereis.com">dynamic</a> <a href="http://mpoll.me">applications</a>. (<a href="/about">read more</a>)
+Hi! I'm Johnson, a web application developer who loves writing code. I use PHP, Ruby, HTML, CSS and JavaScript to create <a href="http://everyone.whereis.com">dynamic</a> <a href="http://ohkanban.com">web</a> <a href="http://fb.ctones.telstra.com">applications</a>. (<a href="/about">read more</a>)
 </p>
 </article>
 <hr />
