@@ -67,20 +67,20 @@
         <div id="content">
         {{ content }}
         </div>
+        <footer id="very-footer">
+            <nav>
+                <ul>
+                    <li class="first"><a href="/atom.xml">Subscribe (Atom)</a></li>
+                    <li>Follow me on <a href="http://twitter.com/jwpage">Twitter</a></li>
+                    <li>Fork me on <a href="http://github.com/jwpage">Github</a></li>
+                    <li>Powered by <a href="http://jekyllrb.com">Jekyll</a></li>
+                </ul>
+            </nav>
+        </footer>
+
         <div class="clear"></div>
     </div>
     <div class="clear"></div>
 </div>
-<footer id="very-footer">
-    <nav>
-        <ul>
-            <li class="first"><a href="/atom.xml">Subscribe (Atom)</a></li>
-            <li>Follow me on <a href="http://twitter.com/jwpage">Twitter</a></li>
-            <li>Fork me on <a href="http://github.com/jwpage">Github</a></li>
-            <li>Powered by <a href="http://jekyllrb.com">Jekyll</a></li>
-        </ul>
-    </nav>
-</footer>
-
 </body>
 </html>
