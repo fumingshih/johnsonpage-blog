@@ -6,7 +6,7 @@ title: About Me
 
 I'm Johnson Page, a web application developer in Brisbane, Australia. 
 
-I write software for the web, previously launching two major applications for Telstra: [Whereis Everyone](http://everyone.whereis.com) and [Bigpond Callertones for Facebook](http://fb.ctones.telstra.com) with [Locatrix Communications](http://locatrix.com). I've also developed complex customer relationship management software for the international franchise [ActionCOACH](http://actioncoach.com). 
+I write software for the web, previously launching two major applications for Telstra: [Whereis Everyone](http://everyone.whereis.com) and [Bigpond Callertones for Facebook](http://fb.ctones.telstra.com) with [Locatrix Communications](http://locatrix.com). I've also developed complex customer relationship management software for the international business coaching franchise [ActionCOACH](http://actioncoach.com). 
 
 This year I participated in the 2010 Rails Rumble, where I designed, wrote and launched [Oh Kan Ban](http://ohkanban.com/), a simple task management tool -- all within 48 hours!
 
